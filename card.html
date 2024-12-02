@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Heller | Application Developer</title>
+    <link rel="stylesheet" href="style.css"> <!-- Your existing CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styling for animated text */
+        .animated-text {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #000000;
+            animation: typing 2s steps(22) infinite, blink 0.75s step-end infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid #000000;
+        }
+
+        /* Keyframes for typing and cursor blink animations */
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="#home" class="logo">Caleb's Portfolio</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Animated Text -->
+    <section id="hero">
+        <img src="Headshot.jpg" alt="Caleb Heller" class="profile-pic"> <!-- Your profile picture -->
+        <h1>Hello, I'm Caleb Heller</h1>
+        <p class="animated-text" id="animatedText"></p> <!-- Animated Text -->
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p class="highlighted-text">What Sets Me Apart?</p> <!-- Added class for styling -->
+    <p>As a cybersecurity enthusiast and emerging expert, I am passionate about designing innovative solutions to safeguard digital systems. During my internship with the Maryland Department of IT, I gained hands-on experience in securing infrastructure, conducting vulnerability assessments, and implementing effective security protocols.
+        With a strong foundation in cybersecurity and computer science, I have experience with tools such as Python, Splunk, and MySQL, and I am continually building my knowledge in areas like network security and AI applications in cybersecurity.
+        I am seeking opportunities to contribute to challenging projects in cybersecurity while continuing to grow and develop my skills. Let’s connect to explore how we can build a safer digital future together!</p>
+</section>
+
+
+   <!-- Resume Download Section -->
+<section id="resume">
+    <h2>My Resume</h2>
+    <p>Download my resume to learn more about my experience and qualifications.</p>
+    <a href="Resume.pdf" download="Caleb_Heller_Resume.pdf" class="btn">Download Resume</a>
+</section>
+
+
+    <!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+            <p>Skilled in using Python for cybersecurity automation, data analysis, and AI model development.</p>
+        </div>
+        <div class="skill-item">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Cybersecurity</h3>
+            <p>Experienced in securing systems, conducting vulnerability assessments, and implementing robust security protocols.</p>
+        </div>
+        <div class="skill-item">
+            <i class="fas fa-bug"></i> <!-- Search icon as a placeholder -->
+            <h3>Metasploit</h3>
+            <p>Proficient in using Metasploit for penetration testing, exploiting vulnerabilities, and conducting security assessments.</p>
+        </div>
+        
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    
+    <!-- New Project: Cyber Platform Link -->
+    <div class="project-item fade-in">
+        <h3>Cybersecurity Education & Awareness Platform</h3>
+        <p class="project-date">June 2024</p>
+        <ul>
+            <li>Created a comprehensive platform featuring instructional videos, quizzes, and interactive content to educate businesses, individuals, and organizations on cybersecurity best practices.</li>
+            <li>Designed content to cover various cybersecurity topics, enhancing user understanding and awareness through practical examples and assessments.</li>
+        </ul>
+        <a href="https://your-cyber-platform-link.com" target="_blank" class="btn">Visit Cyber Platform</a> <!-- Replace with your actual cyber platform URL -->
+    </div>
+    
+    <!-- New Project: Personal Portfolio -->
+    <div class="project-item fade-in">
+        <h3>Personal Portfolio Website</h3>
+        <p class="project-date">November 2024</p>
+        <ul>
+            <li>Developed a personal portfolio website to showcase my skills, projects, and professional background.</li>
+            <li>Utilized HTML, CSS, and JavaScript to create a responsive and visually appealing layout.</li>
+        </ul>
+    </div>
+
+
+
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Side Social Buttons -->
+    <div class="side-social-buttons">
+        <a href="https://www.instagram.com/caleb.heller7" target="_blank" class="social-btn instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/caleb-heller-0a0132280/" target="_blank" class="social-btn linkedin">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:caleb.heller1856@icloud.com" target="_blank" class="social-btn email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/calebheller7" class="social-btn github" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i> <!-- Font Awesome GitHub icon -->
+        </a>
+    </div>
+
+    <!-- JavaScript for Animated Text -->
+    <script>
+        const messages = ["Hi, I'm Caleb.", "I design.", "I code.", "I secure."];
+        let index = 0;
+
+        function changeMessage() {
+            const textElement = document.getElementById("animatedText");
+            textElement.style.width = "0";
+            setTimeout(() => {
+                textElement.textContent = messages[index];
+                textElement.style.width = "100%";
+                index = (index + 1) % messages.length;
+            }, 500); // Delay to give the appearance of deleting
+        }
+
+        setInterval(changeMessage, 9000); // Rotate messages every 3 seconds
+        changeMessage(); // Initialize with the first message
+    </script>
+
+</body>
+</html> 
