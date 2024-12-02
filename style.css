@@ -14,7 +14,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #0a0a0a; /* Matches the page’s dark theme */
+    background-color: #c1bdbd; /* Matches the page’s dark theme */
     padding: 20px 0; /* Adds vertical padding for spacing */
     position: fixed; /* Fixes header position on scroll */
     width: 100%; /* Sets width to full screen */
@@ -34,7 +34,7 @@ nav {
 .logo {
     font-size: 1.5rem; /* Sets font size for logo text */
     font-weight: bold; /* Makes logo text bold */
-    color: #ffffff; /* White color for logo text */
+    color: #180101; /* White color for logo text */
     text-decoration: none; /* Removes underline from logo link */
 }
 
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff; /* White color for nav links */
+    color: #000000; /* White color for nav links */
     text-decoration: none; /* Removes underline from nav links */
     font-weight: 500; /* Slightly boldens text */
     transition: color 0.3s ease; /* Smooth transition for color change on hover */
